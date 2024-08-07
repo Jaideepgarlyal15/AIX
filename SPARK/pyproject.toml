@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "spark"
+version = "0.1.0"
+description = ""
+authors = ["Amogh Agastya <hello@amagastya.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+chainlit = "0.6.0"
+langchain = "^0.0.234"
+openai = "^0.27.8"
+pinecone-client = "^2.2.2"
+cohere = "^4.13.1"
+tiktoken = "^0.4.0"
+fastavro = "!=1.7.4"
+wandb = "^0.15.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

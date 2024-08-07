@@ -1,0 +1,10 @@
+chainlit #Chainlit is an open-source Python package to build production ready Conversational
+langchain # langchain is used for processing the NLP and text generation process 
+langchain_community
+openai # is used as api
+pinecone-client==2.2.4 # for the vector databasse part,retrieve relevant data for search, RAG, recommendation, detection, and other applications.
+cohere ##retrieve relevant data for search, RAG, recommendation, detection, and other applications.
+tiktoken 
+context-python
+promptwatch
+wandb
